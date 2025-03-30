@@ -34,3 +34,12 @@ nav ul li a:hover {
     background-color: white;
     color: rgb(221, 174, 21);
 }
+
+/* main container */
+.hero {
+    background-color: #199677;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
