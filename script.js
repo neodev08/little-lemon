@@ -11,4 +11,4 @@ function limitarPalabrasEnClase(clase, limite) {
 }
 
 // Límite de 80 palabras en todos los elementos con la clase "desc"
-limitarPalabrasEnClase("desc", 80);
+limitarPalabrasEnClase("desc", 20);
