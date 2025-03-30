@@ -45,3 +45,23 @@ nav ul li a:hover {
     padding: 25px 20px;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/*img article midified*/
+article img {
+    width: 340px;
+    height: 220px;
+    border-radius: 10px;
+}
+article img:hover {
+
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 3px #199677;
+}
