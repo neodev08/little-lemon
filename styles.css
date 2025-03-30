@@ -49,6 +49,18 @@ nav ul li a:hover {
     text-align: center;
     padding: 25px 20px;
 }
+.hero button {
+    font-size: 18px;
+    color: white;
+    background-color: #199677;
+    border-style: none;
+    text-transform: capitalize;
+    padding: 10px;
+    border-radius: 10px;
+}
+.hero button:hover {
+    background-color: darkgoldenrod;
+}
 
 .grid-container {
     display: grid;
@@ -76,7 +88,20 @@ article img:hover {
     cursor: pointer;
     box-shadow: 1px 1px 1px 3px #199677;
 }
-
+article button {
+    margin-top: 20px;
+    font-size: 24px;
+    color: white;
+    background-color: #199677;
+    font-weight: 300;
+    border-style: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+article button:hover {
+    color: white;
+    background-color: darkgoldenrod;
+}
 /* footer */
 footer {
     display: flex;
