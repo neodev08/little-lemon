@@ -33,11 +33,15 @@ nav ul li a {
 nav ul li a:hover {
     background-color: white;
     color: rgb(221, 174, 21);
+    border-radius: 10px;
+    padding: 5px;
 }
 
 .active {
     background-color: #67b1db;
     color: white;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 /* main container */
