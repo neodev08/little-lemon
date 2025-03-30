@@ -8,9 +8,29 @@ body {
 
 /*header*/
 header {
-    background-color: #f4a261;
+    background-color: #199677;
     color: white;
     padding: 20px;
     text-align: center;
 }
 
+/* nav */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: rgb(221, 174, 21);
+}
