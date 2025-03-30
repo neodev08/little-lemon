@@ -128,3 +128,85 @@ footer a {
 footer a:hover {
     color: darkgoldenrod;
 }
+
+
+/* Contact form */
+main.form {
+    width: 50%;
+    margin: 0 auto;
+    height: 100vh;
+}
+main form{
+    display: flex;
+    flex-direction: column;
+}
+main form label {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+main form input {
+    margin: 0;
+    padding: 0;
+    border:1px solid #67b1db;
+    padding: 5px;
+}
+main form button {
+    padding: 10px;
+    color: white;
+    background-color: #199677;
+    border-style: none;
+}
+
+/* Estilos para pantallas de 1024px o más (laptops y mayores) */
+@media (min-width: 1024px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Estilos para tablets (pantallas entre 768px y 1023px) */
+@media (max-width: 1023px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    nav ul li {
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+    }
+}
+
+/* Estilos para móviles (menos de 768px) */
+@media (max-width: 767px) {
+    header {
+        padding: 15px;
+        font-size: 1.2rem;
+    }
+    
+    .hero {
+        font-size: 1.2rem;
+        padding: 20px;
+        letter-spacing: normal;
+    }
+    
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+    
+    article img {
+        width: 75%;
+        height: auto;
+    }
+    
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer a {
+        letter-spacing: 0.5rem;
+        font-size: 20px;
+    }
+}
