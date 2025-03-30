@@ -86,3 +86,16 @@ footer {
     padding: 20px;
     text-align: center;
 }
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 26px;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 1rem;
+}
+
+footer a:hover {
+    color: darkgoldenrod;
+}
